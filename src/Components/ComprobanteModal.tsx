@@ -38,7 +38,7 @@ export default function ComprobanteModal({
       onClose();
     } catch (err) {
       console.error(err);
-      alert("Error creando comprobante");
+      alert("Error creando comprobante, asegurese de colocar un NCF distinto");
     }
   };
 
